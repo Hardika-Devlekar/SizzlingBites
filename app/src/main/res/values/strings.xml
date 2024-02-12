@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SizzlingBites</string>
+    <string name="emailAddress">sizzlingbites@gmail.com</string>
+    <string name="websiteLink">https://sizzlingbites.com/</string>
+    <string name="contactNumber">+917208345436</string>
+    <string name="location">Santacruz East, Mumbai, Maharashtra</string>
+
+</resources>

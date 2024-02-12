@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- permissions to check internet -->
+    <!-- permissions to check internet network state -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- permissions to check fine location -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- permissions to check coarse location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- permissions to make a call -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- permissions to send sms -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <!-- permissions to write sms -->
+    <uses-permission android:name="android.permission.VIBRATE" /><!-- permissions to vibrator-->
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <!-- permissions to write external storage -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- permissions to read external storage -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SizzlingBites"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".ui.user.activities.RowActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.user.activities.PaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.user.setting.OfferActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.user.activities.AddAddressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.user.activities.AddressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.user.home.DetailedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.user.home.MainCourseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.user.files.ChangePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.activities.AdminMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.user.setting.ContactUsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.user.setting.CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.user.setting.AccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.user.home.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.user.files.ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.user.files.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.user.files.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.user.files.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- permissions to firebase messaging service -->
+        <service
+            android:name=".ui.FCM.FirebaseMessagingService"
+            android:exported="false"
+            android:permission="TODO">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

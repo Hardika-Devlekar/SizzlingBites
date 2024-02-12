@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "745894342511",
+    "project_id": "sizzlingbites-e1326",
+    "storage_bucket": "sizzlingbites-e1326.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745894342511:android:4724737c4eed765e70829a",
+        "android_client_info": {
+          "package_name": "com.example.sizzlingbites"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745894342511-tr5ihmmp1skuu44tn2teip4h1jri7tqm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFcaf9-kv8Az5uhvUS8WpPSV6rayBukOo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745894342511-tr5ihmmp1skuu44tn2teip4h1jri7tqm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
