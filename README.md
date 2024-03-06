@@ -1,6 +1,6 @@
 # SizzingBites
 
-A new Android project.
+A new Android project. SizzlingBites is the application that provides you variety of food options in a single application. For creating the application Java programming language and Android Studio software has been used. To store the details and data Firebase is used.
 
 ## Getting Started
 
